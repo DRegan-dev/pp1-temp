@@ -13,6 +13,13 @@ body {
     flex-direction: column;
     color: #3a3a3a;
 }
+
+h1, h2, h3 {
+    font-family: 'Jersey 10', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #0baf26;
+}
 /* Header */
 header {
     background-color: #fff;
@@ -31,12 +38,7 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: 'Jersey 10', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #0baf26;
-}
+
 
 #menu {
     font-size: 110%;
@@ -91,6 +93,22 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/pexels-derpycg-7462340.jpg") no-repeat center center/cover;
+    position: relative;
+}
+/* Final rgba value sets the opacity so it is semi-transparent */
+#cover-text {
+    background-color: rgba(0, 255, 92, 0.4);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #fff
 }
 
 /* Footer */
@@ -139,6 +157,11 @@ main {
     
     main {
         margin-top: 79px;
+    }
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
