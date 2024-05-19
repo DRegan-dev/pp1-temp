@@ -20,6 +20,10 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #0baf26;
 }
+
+.hidden-heading {
+    display: none;
+}
 /* Header */
 header {
     background-color: #fff;
